@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background-color: slategray;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    padding:10px;
+    background-color: white;
+}
+
+.big{
+    position: absolute;
+    top:20%;
+    flex-direction:column;
+    height:800px;
+    width:400px;
+    border-radius: 5%;
+}
+
+.title {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    height:15%;
+}
+
+.title-text {
+    position: absolute;
+    top:50%;
+    left:40%;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.fa-times{
+    position: absolute;
+    transform:scale(2,2);
+    top:50%;
+    left:10%;
+}
+
+.np{
+    align-content:center;
+    flex-direction:row;
+    height:20%;
+}
+
+.buttons{
+    align-content:center;
+    flex-direction:row;
+    height:10%;
+    border:solid blue 3px;
+}
+
+.rec-button{
+    width:180px;
+    height:50px;
+    border-radius: 15px;
+    border:solid black 3px;
+}
+
+.circle-button{
+    width:50px;
+    height:50px;
+    border:solid black 3px;
+    border-radius: 50%;
+}
+
+.playlist{
+    border:solid black 2px;
+    display:flex;
+    align-content:center;
+    flex-direction:column;
+    height:55%;
+    border-radius: 10%;
+}
+
+.music{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    border:solid black 3px;
+}
+
+.np-box{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    border: solid black 1px;
+    border-radius:15%;
+    margin: 10px;
+}
+
+.np-title{    
+    display:inline-block;
+    margin:10px 10px 5px 10px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.np-artist{
+    font-size: 13px;
+    margin:10px;
+    color:gray;
+}
+
+.np > .np-box{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    border: solid black 1px;
+    border-radius:15%;
+    margin: 10px;
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    width: 70%;
+    margin:10px;
+}
+
+.np .np-title{
+    display:inline-block;
+    margin:10px 10px 5px 10px;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.np .np-artist{
+    font-size: 15px;
+    margin:10px;
+    color:gray;
+}
